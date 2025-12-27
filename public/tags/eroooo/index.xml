@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>EROOOO on かぶきあげのZOCKレポート</title>
+    <link>http://localhost:1313/tags/eroooo/</link>
+    <description>Recent content in EROOOO on かぶきあげのZOCKレポート</description>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <lastBuildDate>Mon, 16 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/eroooo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Basic HTML Elements</title>
+      <link>http://localhost:1313/posts/basic-elements/</link>
+      <pubDate>Mon, 16 Apr 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/basic-elements/</guid>
+      <description>&lt;h2 id=&#34;序章&#34;&gt;序章&lt;/h2&gt;&#xA;&lt;p&gt;山路を登りながら人類社会のすべての構成員の固有の尊厳と平等で譲ることのできない権利とを承認することは&#xA;今まで、ブログのトップページは最新の数記事の記事全文を掲載していました。&#xA;そのため、当然ながら記事内の画像や埋め込みの動画などすべて表示されるので、&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

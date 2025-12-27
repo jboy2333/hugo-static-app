@@ -1,0 +1,15 @@
+/* static/css/custom.css */
+body {
+    font-family: "Zen Kurenaido", sans-serif;
+    font-size: 130%;
+    font-weight: 400;
+    
+    background-color: #fff4f9;
+}
+
+.logo__title {
+    font-family: "Cherry Bomb One", system-ui;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 500%;
+}
