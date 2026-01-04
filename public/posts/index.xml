@@ -1,40 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on かぶきあげのZOCKレポート</title>
+    <title>風俗体験レポート on かぶきあげのFU-ZOCKレポ</title>
     <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on かぶきあげのZOCKレポート</description>
+    <description>Recent content in 風俗体験レポート on かぶきあげのFU-ZOCKレポ</description>
     <generator>Hugo</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 07 Dec 2025 13:11:16 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 02 Jan 2026 14:01:00 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>テストテンプレートPOST</title>
-      <link>http://localhost:1313/posts/aaa/</link>
-      <pubDate>Sun, 07 Dec 2025 13:11:16 +0900</pubDate>
-      <guid>http://localhost:1313/posts/aaa/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Insert Lead paragraph here.&lt;/strong&gt;&#xA;&lt;B&gt;&lt;font color=&#34;red&#34;&gt;ああああああいいいい&lt;/font&gt;&lt;/B&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;section-1&#34;&gt;Section 1&lt;/h2&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/img/avatar.jpg&#34;&#xA;    alt=&#34;美ヶ原からの景色&#34; width=&#34;10%&#34;&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.amazon.co.jp/&#34;&#xD;&#xA;  &#xD;&#xA;  &#xD;&#xA;    target=&#34;_blank&#34; rel=&#34;noopener&#34;&#xD;&#xA;  &#xD;&#xA;&gt;&#xD;&#xA;  Here comes some sentenseテストリンク&#xD;&#xA;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;sub-section-11&#34;&gt;Sub-Section 1.1&lt;/h2&gt;&#xA;&lt;p&gt;Some text.&lt;/p&gt;</description>
+      <title>003／新宿／デリス新宿／河北るなちゃん</title>
+      <link>http://localhost:1313/posts/report_003/</link>
+      <pubDate>Fri, 02 Jan 2026 14:01:00 +0900</pubDate>
+      <guid>http://localhost:1313/posts/report_003/</guid>
+      <description>&lt;p&gt;デリス新宿 河北るなちゃんと対戦してきました。写真を見てたらビジュがめっちゃタイプで、いつか入りたかったのであります。1年ほど在籍していますが、最近本指名ランキングにも登場してきており期待が膨らみます！&#xA;いざ対戦💓&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Basic HTML Elements</title>
-      <link>http://localhost:1313/posts/basic-elements/</link>
-      <pubDate>Mon, 16 Apr 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/basic-elements/</guid>
-      <description>&lt;h2 id=&#34;序章&#34;&gt;序章&lt;/h2&gt;&#xA;&lt;p&gt;山路を登りながら人類社会のすべての構成員の固有の尊厳と平等で譲ることのできない権利とを承認することは&#xA;今まで、ブログのトップページは最新の数記事の記事全文を掲載していました。&#xA;そのため、当然ながら記事内の画像や埋め込みの動画などすべて表示されるので、&lt;/p&gt;</description>
+      <title>002／新宿／エロいレンタル彼女ヤリカノ／にのちゃん</title>
+      <link>http://localhost:1313/posts/report_002/</link>
+      <pubDate>Fri, 02 Jan 2026 14:00:00 +0900</pubDate>
+      <guid>http://localhost:1313/posts/report_002/</guid>
+      <description>&lt;p&gt;ヤリカノ「リピート＆総合満足度連続No.1継続中」にのちゃんと対戦してきました！この店は初めてでしたが、デリスと同様にやり取りは全てアプリで電話不要なのが便利でした。&#xA;きれいめ系の にのちゃんとの対戦は如何に！いざ対戦💓&lt;/p&gt;</description>
     </item>
     <item>
-      <title>(Hu)go Template Primer</title>
-      <link>http://localhost:1313/posts/hugo-template-primer/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/hugo-template-primer/</guid>
-      <description>&lt;p&gt;Hugo uses the excellent &lt;a href=&#34;https://golang.org/&#34;&#xD;&#xA;  &#xD;&#xA;  &#xD;&#xA;    target=&#34;_blank&#34; rel=&#34;noopener&#34;&#xD;&#xA;  &#xD;&#xA;&gt;&#xD;&#xA;  Go&#xD;&#xA;&lt;/a&gt; &lt;a href=&#34;https://golang.org/pkg/html/template/&#34;&#xD;&#xA;  &#xD;&#xA;  &#xD;&#xA;    target=&#34;_blank&#34; rel=&#34;noopener&#34;&#xD;&#xA;  &#xD;&#xA;&gt;&#xD;&#xA;  html/template&#xD;&#xA;&lt;/a&gt; library for&#xA;its template engine. It is an extremely lightweight engine that provides a very&#xA;small amount of logic. In our experience that it is just the right amount of&#xA;logic to be able to create a good static website. If you have used other&#xA;template systems from different languages or frameworks you will find a lot of&#xA;similarities in Go templates.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Getting Started with Hugo</title>
-      <link>http://localhost:1313/posts/getting-started-with-hugo/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/getting-started-with-hugo/</guid>
-      <description>&lt;h2 id=&#34;step-1-install-hugo&#34;&gt;Step 1. Install Hugo&lt;/h2&gt;&#xA;&lt;p&gt;Go to &lt;a href=&#34;https://github.com/spf13/hugo/releases&#34;&#xD;&#xA;  &#xD;&#xA;  &#xD;&#xA;    target=&#34;_blank&#34; rel=&#34;noopener&#34;&#xD;&#xA;  &#xD;&#xA;&gt;&#xD;&#xA;  Hugo releases&#xD;&#xA;&lt;/a&gt; and download the&#xA;appropriate version for your OS and architecture.&lt;/p&gt;&#xA;&lt;p&gt;Save it somewhere specific as we will be using it in the next step.&lt;/p&gt;&#xA;&lt;p&gt;More complete instructions are available at &lt;a href=&#34;https://gohugo.io/getting-started/installing/&#34;&#xD;&#xA;  &#xD;&#xA;  &#xD;&#xA;    target=&#34;_blank&#34; rel=&#34;noopener&#34;&#xD;&#xA;  &#xD;&#xA;&gt;&#xD;&#xA;  Install Hugo&#xD;&#xA;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;step-2-build-the-docs&#34;&gt;Step 2. Build the Docs&lt;/h2&gt;&#xA;&lt;p&gt;Hugo has its own example site which happens to also be the documentation site&#xA;you are reading right now.&lt;/p&gt;&#xA;&lt;p&gt;Follow the following steps:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Clone the &lt;a href=&#34;https://github.com/spf13/hugo&#34;&#xD;&#xA;  &#xD;&#xA;  &#xD;&#xA;    target=&#34;_blank&#34; rel=&#34;noopener&#34;&#xD;&#xA;  &#xD;&#xA;&gt;&#xD;&#xA;  Hugo repository&#xD;&#xA;&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Go into the repo&lt;/li&gt;&#xA;&lt;li&gt;Run hugo in server mode and build the docs&lt;/li&gt;&#xA;&lt;li&gt;Open your browser to http://localhost:1313&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Corresponding pseudo commands:&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;git clone https://github.com/spf13/hugo&#xD;&#xA;cd hugo&#xD;&#xA;/path/to/where/you/installed/hugo server --source=./docs&#xD;&#xA;&amp;gt; 29 pages created&#xD;&#xA;&amp;gt; 0 tags index created&#xD;&#xA;&amp;gt; in 27 ms&#xD;&#xA;&amp;gt; Web Server is available at http://localhost:1313&#xD;&#xA;&amp;gt; Press ctrl+c to stop&#xD;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;Once you&amp;rsquo;ve gotten here, follow along the rest of this page on your local build.&lt;/p&gt;</description>
+      <title>001／池袋／デリス池袋／あむちゃん ちゃん</title>
+      <link>http://localhost:1313/posts/report_001/</link>
+      <pubDate>Wed, 31 Dec 2025 14:00:00 +0900</pubDate>
+      <guid>http://localhost:1313/posts/report_001/</guid>
+      <description>&lt;p&gt;なかなか予約が取れずにデリスの通知が来ても瞬殺で完売のあむちゃんと対戦してきました。最近は予約争奪戦も落ち着いてきたみたいです。&#xA;第一印象は可愛い！！&#xA;いざ対戦💓&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

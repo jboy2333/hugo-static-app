@@ -1,7 +1,7 @@
 /* static/css/custom.css */
 body {
     font-family: "Zen Kurenaido", sans-serif;
-    font-size: 130%;
+    font-size: 140%;
     font-weight: 400;
     
     background-color: #fff4f9;
@@ -13,3 +13,25 @@ body {
     font-style: normal;
     font-size: 500%;
 }
+
+/* ロゴの subtitle（tagline）の文字サイズを変更 */
+.logo__tagline {
+    font-size: 1.5rem;   /* 好きなサイズに変更 */
+    line-height: 1.0;
+}
+
+
+/* 一覧ページのタイトルサイズを変更 */
+.list__title {
+    font-size: 120%;   /* 好きなサイズに変更 */
+}
+
+.invert-hover {
+  transition: filter 0.3s ease;
+}
+
+.invert-hover:hover {
+  filter: hue-rotate(15deg) brightness(110%) contrast(110%);
+}
+
+

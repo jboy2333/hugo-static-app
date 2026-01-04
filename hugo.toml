@@ -1,5 +1,5 @@
 baseURL = "https://www.amazon.co.jp/"
-title = "かぶきあげのZOCKレポート"
+title = "かぶきあげのFU-ZOCKレポ"
 languageCode = "ja"
 theme ="mainroad"
 disqusShortname = "" # Enable comments by entering your Disqus shortname
@@ -8,30 +8,30 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 hasCJKLanguage = true # 日本語・中国語・韓国語の単語カウントを有効にする
 summaryLength = 120 # サマリーの長さを120単語にする
 
-[params.Author]
+[Params.Author]
   name = "かぶきあげ"
   bio = "主戦場は歌舞伎町ですが、その他の場所にも出没します。"
-  avatar = "img/avatar.jpg"
+  avatar = "img/logo.jpg"
 [Params]
   description = "John Doe's Personal blog about everything" # Description of your site
   opengraph = true
   twitter_cards = true
   readmore = false # Show "Read more" button in list if true
-  authorbox = true
+  authorbox = false
   pager = true
   post_meta = ["date", "categories"] # Order of post meta information
   mainSections = ["posts", "docs"]
-  highlightColor = "#ff1493" # ハイライト色を上書きする
+#  highlightColor = "#ff1493" # ハイライト色を上書きする
+  highlightColor = "#ff8ec6" # ハイライト色を上書きする
   customCSS = ["/css/notosansjp.css", "/css/custom.css"] # カスタムCSSファイルをインクルードする
 [Params.thumbnail]
-  visibility = ["list"]
+  visibility = ["list","post"]
   
 [Params.logo]
-  subtitle = "歌舞伎町を主戦場に風俗の旅へ…" # Logo subtitle
-  image = "img/logo.jpg" 
+  subtitle = "風俗体験レポート ロハを求めて三千里…" # Logo subtitle
+  image = "img/logo.png" 
 
 [Params.widgets.social]
-  twitter = "jboy2333"
   email = "michae.j332333@gmail.com"
 
 [Params.sidebar]
@@ -43,14 +43,23 @@ summaryLength = 120 # サマリーの長さを120単語にする
 [Params.widgets]
   recent_num = 5 # Set the number of articles in the "Recent articles" widget
   tags_counter = false # Enable counter for each tag in "Tags" widget (disabled by default)
-
+# config.toml
+# カスタムソーシャルリンク
+[[Params.widgets.social.custom]]
+  url = "https://x.com/michael_j2333"
+  icon = "svg/twitter.svg"
+  title = "X（Twitter）"
+[[Params.widgets.social.custom]]
+  url = "https://line.me/ti/p/neNlAY8Ljk"
+  icon = "svg/line.svg"
+  title = "LINE"
 # メインメニュー
-[[Menus.main]]
-  Name = "ホーム"
-  URL = "/"
-[[Menus.main]]
-  Name = "レポート"
-  URL = "/posts/"
+#[[Menus.main]]
+#  Name = "ホーム"
+#  URL = "/"
+#[[Menus.main]]
+#  Name = "レポート"
+#  URL = "/posts/"
 
 [markup]
   [markup.goldmark]
