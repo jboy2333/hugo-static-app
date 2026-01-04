@@ -23,7 +23,7 @@ summaryLength = 120 # サマリーの長さを120単語にする
   mainSections = ["posts", "docs"]
 #  highlightColor = "#ff1493" # ハイライト色を上書きする
   highlightColor = "#ff8ec6" # ハイライト色を上書きする
-  customCSS = ["/css/notosansjp.css", "/css/custom.css"] # カスタムCSSファイルをインクルードする
+  customCSS = ["css/notosansjp.css", "css/custom.css"] # カスタムCSSファイルをインクルードする
 [Params.thumbnail]
   visibility = ["list","post"]
   
