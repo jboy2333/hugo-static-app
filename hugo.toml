@@ -47,7 +47,7 @@ summaryLength = 120 # サマリーの長さを120単語にする
 # カスタムソーシャルリンク
 [[Params.widgets.social.custom]]
   url = "https://x.com/michael_j2333"
-  icon = "twitter"
+  icon = "svg/twitter.svg"
   title = "X（Twitter）"
 [[Params.widgets.social.custom]]
   url = "https://line.me/ti/p/neNlAY8Ljk"
