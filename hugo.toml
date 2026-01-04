@@ -51,7 +51,7 @@ summaryLength = 120 # サマリーの長さを120単語にする
   title = "X（Twitter）"
 [[Params.widgets.social.custom]]
   url = "https://line.me/ti/p/neNlAY8Ljk"
-  icon = "line"
+  icon = "line.svg"
   title = "LINE"
 # メインメニュー
 #[[Menus.main]]
