@@ -34,4 +34,4 @@ thumbnail: 'img/rep_002.webp'
 <a href="{{< ref "/blomaga.md#購入方法" >}}">
   <img src="/img/blomaga.png" alt="ブロマガ" class="invert-hover">
 </a>
-<span style="font-size: 150%;">**￥900**</span>（約1000文字）
+<span style="font-size: 150%;">**￥900**</span>（約1400文字）
