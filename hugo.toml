@@ -1,6 +1,7 @@
 baseURL = "https://www.fu-zock.com/"
 title = "かぶきあげのFU-ZOCKレポ"
 languageCode = "ja"
+enableRobotsTXT = true
 theme ="mainroad"
 disqusShortname = "" # Enable comments by entering your Disqus shortname
 googleAnalytics = "" # Enable Google Analytics by entering your tracking id
@@ -13,7 +14,7 @@ summaryLength = 120 # サマリーの長さを120単語にする
   bio = "主戦場は歌舞伎町ですが、その他の場所にも出没します。"
   avatar = "img/logo.jpg"
 [Params]
-  description = "John Doe's Personal blog about everything" # Description of your site
+  description = "デリヘルを主とした風俗体験レポートです。" 
   opengraph = true
   twitter_cards = true
   readmore = false # Show "Read more" button in list if true

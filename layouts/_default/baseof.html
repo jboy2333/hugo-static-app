@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html class="no-js" lang="{{ .Site.Language.Lang }}">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>{{ block "title" . }}{{ if not .IsHome }}{{ .Title }} - {{ end }}{{ .Site.Title }}{{ end }}</title>
+
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+
+	<!-- ========================= -->
+	<!--      SEO 最適化           -->
+	<!-- ========================= -->
+
+	<!-- description（記事 or トップページ） -->
+	<meta name="description" content="{{ if .IsHome }}
+		{{ .Site.Params.description }}
+	{{ else }}
+		{{ with .Params.description }}{{ . }}{{ else }}{{ .Summary }}{{ end }}
+	{{ end }}">
+
+	<!-- canonical（重複防止） -->
+	<link rel="canonical" href="{{ .Permalink }}">
+
+	<!-- OGP（SNS シェア最適化） -->
+	{{ if .Site.Params.opengraph }}
+		{{ template "_internal/opengraph.html" . }}
+	{{ end }}
+
+	<!-- Twitter Cards -->
+	{{ if .Site.Params.twitter_cards }}
+		{{ template "_internal/twitter_cards.html" . }}
+	{{ end }}
+
+	<!-- JSON-LD（構造化データ：WebSite + WebPage） -->
+	<script type="application/ld+json">
+	{
+	  "@context": "https://schema.org",
+	  "@type": "WebSite",
+	  "url": "{{ .Site.BaseURL }}",
+	  "name": "{{ .Site.Title }}",
+	  "description": "{{ .Site.Params.description }}"
+	}
+	</script>
+
+	<script type="application/ld+json">
+	{
+	  "@context": "https://schema.org",
+	  "@type": "WebPage",
+	  "url": "{{ .Permalink }}",
+	  "name": "{{ .Title }}",
+	  "description": "{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ with .Params.description }}{{ . }}{{ else }}{{ .Summary }}{{ end }}{{ end }}"
+	}
+	</script>
+
+	{{ if .IsPage }}
+	<script type="application/ld+json">
+	{
+	  "@context": "https://schema.org",
+	  "@type": "BlogPosting",
+	  "headline": "{{ .Title }}",
+	  "description": "{{ with .Params.description }}{{ . }}{{ else }}{{ .Summary }}{{ end }}",
+	  "url": "{{ .Permalink }}",
+	  "mainEntityOfPage": {
+	    "@type": "WebPage",
+	    "@id": "{{ .Permalink }}"
+	  },
+	  "datePublished": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",
+	  "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}",
+	  "author": {
+	    "@type": "Person",
+	    "name": "{{ .Site.Params.author }}"
+	  },
+	  "publisher": {
+	    "@type": "Organization",
+	    "name": "{{ .Site.Title }}",
+	    "logo": {
+	      "@type": "ImageObject",
+	      "url": "{{ "images/ogp.png" | relURL }}"
+	    }
+	  },
+
+	  <!-- 記事の代表画像（Google が最も重視） -->
+	  "image": "{{ with .Params.images }}{{ index . 0 | relURL }}{{ else }}{{ "images/ogp.png" | relURL }}{{ end }}",
+
+	  <!-- サムネイル（補助的） -->
+	  "thumbnailUrl": "{{ with .Params.thumbnail }}{{ . | relURL }}{{ else }}{{ "images/ogp.png" | relURL }}{{ end }}"
+	}
+	</script>
+	{{ end }}
+
+
+	<!-- ========================= -->
+	<!--     Mainroad 標準部分     -->
+	<!-- ========================= -->
+
+	{{- $googleFontsLink := .Site.Params.googleFontsLink | default "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" }}
+	{{- if hasPrefix $googleFontsLink "https://fonts.googleapis.com/" }}
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link rel="stylesheet" {{ printf `href="%s"` $googleFontsLink | safeHTMLAttr }}>
+	{{- end }}
+
+	{{ $style := resources.Get "css/style.css" | resources.ExecuteAsTemplate "css/style.css" . -}}
+	<link rel="stylesheet" href="{{ $style.RelPermalink }}">
+	{{ range .Site.Params.customCSS -}}
+	<link rel="stylesheet" href="{{ . | relURL }}">
+	{{- end }}
+
+	{{- with .OutputFormats.Get "rss" }}
+	{{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }}
+	{{- end }}
+
+	<link rel="shortcut icon" href="{{ "favicon.ico" | relURL }}">
+
+	{{- $server := "" }}
+	{{- if gt (int (index (split hugo.Version ".") 1)) "120" }}
+		{{ $server = hugo.IsServer }}
+	{{- else }}
+		{{ $server = .Site.IsServer }}
+	{{- end -}}
+	{{- if not $server }}
+		{{ template "_internal/google_analytics.html" . }}
+	{{- end }}
+</head>
+
+<body class="body">
+	<div class="container container--outer">
+		{{ block "header" . }}{{ partial "header.html" . }}{{ end }}
+		<div class="wrapper flex">
+			<div class="primary">
+			{{ block "main" . }}
+				{{ with .Content }}
+				<div class="content main__content clearfix">
+					{{ . }}
+				</div>
+				{{ end }}
+			{{ end }}
+			</div>
+			{{ block "sidebar" . }}{{ partial "sidebar.html" . }}{{ end }}
+		</div>
+		{{ block "footer" . }}{{ partial "footer.html" . }}{{ end }}
+	</div>
+
+<script async defer src="{{ "js/menu.js" | relURL }}"></script>
+{{ range .Site.Params.customJS -}}
+<script src="{{ . | relURL }}"></script>
+{{- end }}
+{{- partial "mathjax.html" . -}}
+</body>
+</html>
