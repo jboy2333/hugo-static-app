@@ -1,28 +1,29 @@
 ---
-title: "004／XXXX／XXXX／XXX ちゃん"
-description: "XXXX XXXXの風俗体験レポートです。"
-date: 2026-01-06T22:01:07+09:00
+title: "004｜新宿｜エロいレンタル彼女ヤリカノ｜りお ちゃん体験レビュー"
+description: "エロいレンタル彼女ヤリカノの人気キャスト「りお」ちゃんに関する体験レビューを紹介します。"
+
+date: 2026-01-08T13:38:50+09:00
 categories:
-- XXXX
+- 新宿_エロいレンタル彼女ヤリカノ
 tags:
-- XXXX
+- 美少女
 thumbnail: "img/rep_004.webp"
-draft: true
+images: ["img/rep_004.webp"]
 ---
 
-ここに本文を書き始めてください。
-いざ対戦💓
+ヤリカノ会員番号002番の りのちゃんと対戦してきました。錦糸町某店での人気嬢ですが、こちらの方が予約しやすかった為こちらで対戦です。AVにも出演しているとのことで期待が膨らみます！いざ対戦❤
 <!--more-->
 # プロフィール
-XXXX／XXXX ちゃん／99歳／T1XX,Xカップ  
-<a href="https://www.cityheaven.net/tokyo/XXXXXXX" target="blank">プロフィールはこちら</a>
+<!--エロいレンタル彼女ヤリカノ｜りお ちゃん｜QQ歳｜T1XX,Xカップ  -->
+エロいレンタル彼女ヤリカノ｜りお ちゃん｜24歳｜T152,B90(G),W57,H84  
+<a href="https://yk2024.com/search/detail-female/2" target="blank">プロフィールはこちら</a>
 # レポート
 ■対戦情報  
-対戦時期：2026年XX月  
-対戦コース：XX分  
-対戦回数：X回目  
+対戦時期：2025年11月  
+対戦コース：60分  
+対戦回数：1回目  
 
-1. ルックス ?.?
+1. ルックス 4.5
 2. スタイル  ?.?
 3. 性格ホスピ ?.?
 4. プレイ ?.?
@@ -34,4 +35,4 @@ XXXX／XXXX ちゃん／99歳／T1XX,Xカップ
 <a href="{{< ref "/blomaga.md#購入方法" >}}">
   <img src="/img/blomaga.png" alt="ブロマガ" class="invert-hover">
 </a>
-<span style="font-size: 150%;">**￥900**</span>（約XXXX文字）
+<span style="font-size: 150%;">**￥900**</span>（約800文字）

@@ -1,22 +1,23 @@
 ---
-title: "003／新宿／デリス新宿／河北るなちゃん"
-description: "デリス新宿 河北るなちゃんの風俗体験レポートです。"
+title: "003｜新宿｜デリス新宿｜河北るな ちゃん"
+description: "デリス新宿の人気キャスト「河北るな」ちゃんに関する体験レビューを紹介します。"
 date: 2026-01-02T14:01:00+09:00
 lastmod: 2026-01-02T14:01:00+09:00
 categories:
 - 新宿_デリス新宿
 tags:
-- きれい系
+- キレイ系
 - 美乳
-thumbnail: 'img/rep_003.webp'
+thumbnail: "img/rep_003.webp"
+images: ["img/rep_003.webp"]
 ---
 
 デリス新宿 河北るなちゃんと対戦してきました。写真を見てたらビジュがめっちゃタイプで、いつか入りたかったのであります。1年ほど在籍していますが、最近本指名ランキングにも登場してきており期待が膨らみます！
 いざ対戦💓
 <!--more-->
 # プロフィール
-デリス新宿／河北るな／21歳／T164,Eカップ  
-<a href="https://yk2024.com/search/detail-female/1" target="blank">プロフィールはこちら</a>
+デリス新宿｜河北るな｜21歳｜T164,Eカップ  
+<a href="https://www.cityheaven.net/tokyo/A1304/A130401/deli-shinjuku-k/girlid-57496802/" target="blank">プロフィールはこちら</a>
 <!--more-->
 # レポート
 ■対戦情報  

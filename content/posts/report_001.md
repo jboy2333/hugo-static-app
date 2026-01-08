@@ -16,7 +16,7 @@ images: ["img/rep_001.webp"]
 いざ対戦💓
 <!--more-->
 # プロフィール
-デリス池袋／あむちゃん ／22歳／T160,Cカップ  
+デリス池袋｜あむちゃん｜22歳｜T160,Cカップ  
 <a href="https://www.cityheaven.net/tokyo/A1305/A130505/delice-i/girlid-62497440/" target="blank">プロフィールはこちら</a>
 # レポート
 ■対戦情報  
