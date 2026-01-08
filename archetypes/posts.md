@@ -1,5 +1,5 @@
 ---
-title: "{{ index (split .File.BaseFileName "_" ) 1 }}｜XXXX｜YYYY｜ZZZZ ちゃん体験レビュー"
+title: "{{ index (split .File.BaseFileName "_" ) 1 }}｜XXXX｜YYYY｜ZZZZ ちゃん"
 description: "YYYYの人気キャスト「ZZZZ」ちゃんに関する体験レビューを紹介します。"
 
 date: {{ .Date }}
