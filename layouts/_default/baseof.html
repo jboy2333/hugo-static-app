@@ -37,19 +37,33 @@
 	{
 	  "@context": "https://schema.org",
 	  "@type": "WebSite",
-	  "url": "{{ .Site.BaseURL }}",
 	  "name": "{{ .Site.Title }}",
-	  "description": "{{ .Site.Params.description }}"
+	  "url": "{{ .Site.BaseURL }}",
+	  "publisher": {
+	    "@type": "Organization",
+	    "name": "{{ .Site.Title }}",
+	    "logo": {
+	      "@type": "ImageObject",
+	      "url": "{{ "/img/logo.png" | relURL }}",
+	      "width": 512,
+	      "height": 512
+	    }
+	  }
 	}
 	</script>
 
 	<script type="application/ld+json">
 	{
 	  "@context": "https://schema.org",
-	  "@type": "WebPage",
-	  "url": "{{ .Permalink }}",
-	  "name": "{{ .Title }}",
-	  "description": "{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ with .Params.description }}{{ . }}{{ else }}{{ .Summary }}{{ end }}{{ end }}"
+	  "@type": "Organization",
+	  "name": "{{ .Site.Title }}",
+	  "url": "{{ .Site.BaseURL }}",
+	  "logo": {
+	    "@type": "ImageObject",
+	    "url": "{{ "/img/logo.png" | relURL }}",
+	    "width": 512,
+	    "height": 512
+	  }
 	}
 	</script>
 
@@ -76,7 +90,7 @@
 	    "name": "{{ .Site.Title }}",
 	    "logo": {
 	      "@type": "ImageObject",
-	      "url": "{{ "images/ogp.png" | relURL }}"
+	      "url": "{{ "/img/logo.png" | relURL }}"
 	    }
 	  },
 
