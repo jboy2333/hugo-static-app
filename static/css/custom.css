@@ -46,9 +46,20 @@ body {
         height: auto;
     }
 	.logo__tagline {
-    	font-size: 0.5rem;   /* 好きなサイズに変更 */
+    	font-size: 0.7rem;   /* 好きなサイズに変更 */
     	line-height: 0.1;
 	}
+
+  .menu__btn {
+    padding: 0px 8px;
+  }
+  .menu__btn-title {
+    font-size: 0.8rem;
+  }
+  .menu__btn-icon {
+    width: 16px;
+    height: 10px;
+  }
 
 }
 
