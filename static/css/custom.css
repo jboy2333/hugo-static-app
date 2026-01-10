@@ -17,7 +17,7 @@ body {
 /* スマホ（画面幅 600px 以下）用 X*/
 @media (max-width: 600px) {
     .logo__title {
-        font-size: 150%;   /* 好きなサイズに調整可能 */
+        font-size: 100%;   /* 好きなサイズに調整可能 */
         line-height: 1.1;
     }
     .logo__img {
