@@ -46,7 +46,7 @@ body {
         height: auto;
     }
 	.logo__tagline {
-    	font-size: 0.7rem;   /* 好きなサイズに変更 */
+    	font-size: 0.9rem;   /* 好きなサイズに変更 */
     	line-height: 0.1;
 	}
 
@@ -60,6 +60,11 @@ body {
     width: 16px;
     height: 10px;
   }
+  /* メニュー項目の文字サイズを小さくする */
+  .menu__list .menu__item .menu__link {
+    font-size: 0.9rem;   /* 好きなサイズに変更 */
+    padding-top: 6px;    /* 行間を詰めたい場合 */
+    padding-bottom: 6px;
 
 }
 
