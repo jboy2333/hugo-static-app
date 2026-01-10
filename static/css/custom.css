@@ -67,9 +67,9 @@ body {
     padding-bottom: 6px;
   
   /* 一覧の文字を小さくする */
-  .post__excerpt {
-    font-size: 0.9rem;
-    line-height: 1.4;
+  .content.list__excerpt.post__content.clearfix p {
+    font-size: 0.5rem !important;
+    line-height: 1.4 !important;
   }
 
 }
