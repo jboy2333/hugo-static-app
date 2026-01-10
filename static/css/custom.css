@@ -34,22 +34,20 @@ body {
 /* スマホ（画面幅 600px 以下）用 X*/
 @media (max-width: 600px) {
 	.logo {
-    	padding-top: 5px;   /* デフォルトは 20px */
-    	padding-bottom: 5px;
+    	padding-top: 1px;   /* デフォルトは 20px */
+    	padding-bottom: 1px;
 	}
     .logo__title {
         font-size: 100%;   /* 好きなサイズに調整可能 */
-        line-height: 1.1;
+        line-height: 0.1;
     }
     .logo__link .logo__img {
-        width: 12x;  /* スマホ用に小さくする */
-        max-width: 12px;
+        max-width: 38px;	/* スマホ用に小さくする */
         height: auto;
-        logo__tagline: 1.0rem
     }
 	.logo__tagline {
-    	font-size: 0.7rem;   /* 好きなサイズに変更 */
-    	line-height: 1.0;
+    	font-size: 0.5rem;   /* 好きなサイズに変更 */
+    	line-height: 0.1;
 	}
 
 }
