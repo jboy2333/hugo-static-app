@@ -46,7 +46,7 @@ body {
         height: auto;
     }
 	.logo__tagline {
-    	font-size: 0.9rem;   /* 好きなサイズに変更 */
+    	font-size: 0.8rem;   /* 好きなサイズに変更 */
     	line-height: 0.1;
 	}
 
@@ -65,6 +65,12 @@ body {
     font-size: 0.9rem;   /* 好きなサイズに変更 */
     padding-top: 6px;    /* 行間を詰めたい場合 */
     padding-bottom: 6px;
+  
+  /* 一覧の文字を小さくする */
+  .post__excerpt {
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
 
 }
 
