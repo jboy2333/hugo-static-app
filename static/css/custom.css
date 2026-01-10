@@ -7,6 +7,12 @@ body {
     background-color: #fff4f9;
 }
 
+.logo {
+    padding-top: 10px;   /* デフォルトは 20px */
+    padding-bottom: 10px;
+}
+
+
 .logo__title {
     font-family: "Cherry Bomb One", system-ui;
     font-weight: 200;
@@ -27,13 +33,17 @@ body {
 
 /* スマホ（画面幅 600px 以下）用 X*/
 @media (max-width: 600px) {
+	.logo {
+    	padding-top: 5px;   /* デフォルトは 20px */
+    	padding-bottom: 5px;
+	}
     .logo__title {
         font-size: 100%;   /* 好きなサイズに調整可能 */
         line-height: 1.1;
     }
     .logo__link .logo__img {
-        width: 16x;  /* スマホ用に小さくする */
-        max-width: 16px;
+        width: 128x;  /* スマホ用に小さくする */
+        max-width: 128px;
         height: auto;
         logo__tagline: 1.0rem
     }
