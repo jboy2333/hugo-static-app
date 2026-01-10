@@ -14,30 +14,38 @@ body {
     font-size: 500%;
 }
 
-/* スマホ（画面幅 600px 以下）用 X*/
-@media (max-width: 600px) {
-    .logo__title {
-        font-size: 100%;   /* 好きなサイズに調整可能 */
-        line-height: 1.1;
-    }
-    .logo__img {
-        width: 120px;  /* スマホ用に小さくする */
-        height: auto;
-    }
-
-}
-
 /* ロゴの subtitle（tagline）の文字サイズを変更 */
 .logo__tagline {
     font-size: 1.5rem;   /* 好きなサイズに変更 */
     line-height: 1.0;
 }
 
-
 /* 一覧ページのタイトルサイズを変更 */
 .list__title {
     font-size: 120%;   /* 好きなサイズに変更 */
 }
+
+/* スマホ（画面幅 600px 以下）用 X*/
+@media (max-width: 600px) {
+    .logo__title {
+        font-size: 100%;   /* 好きなサイズに調整可能 */
+        line-height: 1.1;
+    }
+    .logo__link .logo__img {
+        width: 16x;  /* スマホ用に小さくする */
+        max-width: 16px;
+        height: auto;
+        logo__tagline: 1.0rem
+    }
+	.logo__tagline {
+    	font-size: 0.7rem;   /* 好きなサイズに変更 */
+    	line-height: 1.0;
+	}
+
+}
+
+
+
 
 .invert-hover {
   transition: filter 0.3s ease;
