@@ -42,8 +42,8 @@ body {
         line-height: 1.1;
     }
     .logo__link .logo__img {
-        width: 128x;  /* スマホ用に小さくする */
-        max-width: 128px;
+        width: 12x;  /* スマホ用に小さくする */
+        max-width: 12px;
         height: auto;
         logo__tagline: 1.0rem
     }
