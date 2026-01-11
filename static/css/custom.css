@@ -30,6 +30,15 @@ body {
     font-size: 1.6rem;   /* 好きなサイズに変更 */
 }
 
+/* Section ページ（posts）のタイトルを非表示にする */
+.main__header,
+.main__title {
+  display: none !important;
+}
+
+
+
+
 
 /* スマホ（画面幅 600px 以下）用 X*/
 @media (max-width: 600px) {
