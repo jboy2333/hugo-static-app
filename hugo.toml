@@ -32,9 +32,6 @@ summaryLength = 120 # サマリーの長さを120単語にする
   subtitle = "風俗体験レポート ロハを求めて三千里…" # Logo subtitle
   image = "img/logo.png" 
 
-[Params.widgets.social]
-  email = "michae.j332333@gmail.com"
-
 [Params.sidebar]
   home = "right"   # Configure layout for home page
   list = "right"   # Configure layout for list pages
@@ -54,6 +51,10 @@ summaryLength = 120 # サマリーの長さを120単語にする
   url = "https://line.me/ti/p/neNlAY8Ljk"
   icon = "line.svg"
   title = "LINE"
+[[Params.widgets.social.custom]]
+  url = "mailto:michae.j332333@gmail.com"
+  icon = "email.svg"
+  title = "MAIL"
 # メインメニュー
 #[[Menus.main]]
 #  Name = "ホーム"
