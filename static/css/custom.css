@@ -1,7 +1,7 @@
 /* assets/css/custom.css */
 body {
     font-family: "Zen Kurenaido", sans-serif;
-    font-size: 140%;
+    font-size: 1.4rem;
     font-weight: 400;
     
     background-color: #fff4f9;
@@ -12,35 +12,39 @@ body {
     padding-bottom: 10px;
 }
 
-
 .logo__title {
     font-family: "Cherry Bomb One", system-ui;
     font-weight: 200;
     font-style: normal;
-    font-size: 500%;
+    font-size: 6.5rem;
 }
 
 /* ロゴの subtitle（tagline）の文字サイズを変更 */
 .logo__tagline {
     font-size: 1.5rem;   /* 好きなサイズに変更 */
-    line-height: 1.0;
+    line-height: 0.5;
 }
 
 /* 一覧ページのタイトルサイズを変更 */
 .list__title {
-    font-size: 120%;   /* 好きなサイズに変更 */
+    font-size: 1.6rem;   /* 好きなサイズに変更 */
 }
+
 
 /* スマホ（画面幅 600px 以下）用 X*/
 @media (max-width: 600px) {
+	body {
+    	font-size: 1.0rem;
+	}
+
  	/* ヘッダー部のサイズ設定 */
 	.logo {
-    	padding-top: 1px;   /* デフォルトは 20px */
-    	padding-bottom: 1px;
+    	padding-top: 0.1px;   /* デフォルトは 20px */
+    	padding-bottom: 0.1px;
 	}
     .logo__title {
-        font-size: 100%;   /* 好きなサイズに調整可能 */
-        line-height: 0.1;
+        font-size: 2.5rem;   /* 好きなサイズに調整可能 */
+        line-height: 0.2;
     }
     .logo__link .logo__img {
         max-width: 38px;	/* スマホ用に小さくする */
@@ -51,32 +55,76 @@ body {
     	line-height: 0.1;
 	}
 
-  /* メニュー項目のサイズ設定 */
+  /* メニューの設定 */
+/* MENU ボタンを右側に寄せる（スマホ専用） */
+.header__container {
+  display: flex;
+  justify-content: space-between; /* ロゴ ←→ MENU を左右に分ける */
+  align-items: center;
+}
+
+.menu {
+  margin-left: auto; /* MENU を右端へ押し出す */
+}
+
   .menu__btn {
     padding: 0px 8px;
+    display: flex;
+    align-items: center;
+    gap: 6px; /* アイコンと文字の間隔 */    
   }
   .menu__btn-title {
     font-size: 0.8rem;
   }
   .menu__btn-icon {
+    display: inline-block;
     width: 16px;
     height: 10px;
+    position: relative;
   }
+    /* 三本ラインの描画 */
+  .menu__btn-icon::before,
+  .menu__btn-icon::after,
+  .menu__btn-icon span {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: currentColor;
+    border-radius: 2px;
+  }
+
+  /* 上のライン */
+  .menu__btn-icon::before {
+    top: 0;
+  }
+
+  /* 真ん中のライン */
+  .menu__btn-icon span {
+    top: 6px;
+  }
+
+  /* 下のライン */
+  .menu__btn-icon::after {
+    bottom: 0;
+  }
+
   .menu__list .menu__item .menu__link {
     font-size: 0.9rem;   /* 好きなサイズに変更 */
     padding-top: 6px;    /* 行間を詰めたい場合 */
     padding-bottom: 6px;
   }
 
-	/* 一覧の文字を小さくする */
-  .list__item {
-    font-size: 1.0rem !important;
-    line-height: 0.5 !important;
+	/* 一覧の文字サイズ設定 */
+  .list__title a {
+    font-size: 1.5rem !important;
   }
   body .content.list__excerpt.post__content.clearfix p {
-    font-size: 1.0rem !important;
+    font-size: 1.1rem !important;
     line-height: 1.4 !important;
   }
+
 
 }
 
