@@ -65,10 +65,15 @@ body {
     font-size: 0.9rem;   /* 好きなサイズに変更 */
     padding-top: 6px;    /* 行間を詰めたい場合 */
     padding-bottom: 6px;
-  
+  }
+  .list__item {
+    font-size: 1.2rem !important;
+    line-height: 0.5 !important;
+  }
+
   /* 一覧の文字を小さくする */
-  .content.list__excerpt.post__content.clearfix p {
-    font-size: 0.5rem !important;
+  body .content.list__excerpt.post__content.clearfix p {
+    font-size: 1.0rem !important;
     line-height: 1.4 !important;
   }
 
