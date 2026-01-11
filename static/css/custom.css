@@ -33,6 +33,7 @@ body {
 
 /* スマホ（画面幅 600px 以下）用 X*/
 @media (max-width: 600px) {
+ 	/* ヘッダー部のサイズ設定 */
 	.logo {
     	padding-top: 1px;   /* デフォルトは 20px */
     	padding-bottom: 1px;
@@ -50,6 +51,7 @@ body {
     	line-height: 0.1;
 	}
 
+  /* メニュー項目のサイズ設定 */
   .menu__btn {
     padding: 0px 8px;
   }
@@ -60,18 +62,17 @@ body {
     width: 16px;
     height: 10px;
   }
-  /* メニュー項目の文字サイズを小さくする */
   .menu__list .menu__item .menu__link {
     font-size: 0.9rem;   /* 好きなサイズに変更 */
     padding-top: 6px;    /* 行間を詰めたい場合 */
     padding-bottom: 6px;
   }
+
+	/* 一覧の文字を小さくする */
   .list__item {
-    font-size: 1.2rem !important;
+    font-size: 1.0rem !important;
     line-height: 0.5 !important;
   }
-
-  /* 一覧の文字を小さくする */
   body .content.list__excerpt.post__content.clearfix p {
     font-size: 1.0rem !important;
     line-height: 1.4 !important;
