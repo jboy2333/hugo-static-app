@@ -43,7 +43,7 @@ body {
     	padding-bottom: 0.1px;
 	}
     .logo__title {
-        font-size: 2.5rem;   /* 好きなサイズに調整可能 */
+        font-size: 2.0rem;   /* 好きなサイズに調整可能 */
         line-height: 0.2;
     }
     .logo__link .logo__img {
@@ -57,29 +57,15 @@ body {
 
   /* メニューの設定 */
 
-/* スマホではロゴの下のメニュー領域を横幅いっぱいに広げる */
 
-/* スマホ版でメニューを右寄せ */
-/* メニュー全体を右端に寄せる */
-
-
-/* ラッパーを右端に寄せる */
-.menu__wrapper {
-  width: 100%;
-  display: flex;
-  justify-content: flex-end;
-  padding-right: 10px; /* 右端に余白。不要なら0でもOK */
-  box-sizing: border-box;
-}
 
 /* MENUボタンの中身を横並びに（三本線 → MENU） */
 .menu__btn {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 6px;
+  gap: 0.1px;
 }
-
 
   .menu__btn-title {
     font-size: 0.8rem;
