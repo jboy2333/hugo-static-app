@@ -59,21 +59,20 @@ body {
 
 
 
-/* MENUボタンの中身を横並びに（三本線 → MENU） */
-.menu__btn {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 0.1px;
-}
-
+  /* MENUボタンの中身を横並びに（三本線 → MENU） */
+  .menu__btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.1px;
+  }
   .menu__btn-title {
     font-size: 0.8rem;
   }
   .menu__btn-icon {
     display: inline-block;
     width: 16px;
-    height: 10px;
+    height: 13px;
     position: relative;
   }
     /* 三本ラインの描画 */
@@ -84,21 +83,18 @@ body {
     position: absolute;
     left: 0;
     width: 100%;
-    height: 2px;
+    height: 1.1px;
     background: currentColor;
     border-radius: 2px;
   }
-
   /* 上のライン */
   .menu__btn-icon::before {
     top: 0;
   }
-
   /* 真ん中のライン */
   .menu__btn-icon span {
     top: 6px;
   }
-
   /* 下のライン */
   .menu__btn-icon::after {
     bottom: 0;
@@ -112,18 +108,15 @@ body {
 
 	/* 一覧の文字サイズ設定 */
   .list__title a {
-    font-size: 1.5rem !important;
+    font-size: 1.1rem !important;
   }
   body .content.list__excerpt.post__content.clearfix p {
-    font-size: 1.1rem !important;
-    line-height: 1.4 !important;
+    font-size: 1.0rem !important;
+    line-height: 1.0 !important;
   }
 
 
 }
-
-
-
 
 .invert-hover {
   transition: filter 0.3s ease;
