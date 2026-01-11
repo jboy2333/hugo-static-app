@@ -56,23 +56,31 @@ body {
 	}
 
   /* メニューの設定 */
-/* MENU ボタンを右側に寄せる（スマホ専用） */
-.header__container {
+
+/* スマホではロゴの下のメニュー領域を横幅いっぱいに広げる */
+
+/* スマホ版でメニューを右寄せ */
+/* メニュー全体を右端に寄せる */
+
+
+/* ラッパーを右端に寄せる */
+.menu__wrapper {
+  width: 100%;
   display: flex;
-  justify-content: space-between; /* ロゴ ←→ MENU を左右に分ける */
+  justify-content: flex-end;
+  padding-right: 10px; /* 右端に余白。不要なら0でもOK */
+  box-sizing: border-box;
+}
+
+/* MENUボタンの中身を横並びに（三本線 → MENU） */
+.menu__btn {
+  display: flex;
+  flex-direction: row;
   align-items: center;
+  gap: 6px;
 }
 
-.menu {
-  margin-left: auto; /* MENU を右端へ押し出す */
-}
 
-  .menu__btn {
-    padding: 0px 8px;
-    display: flex;
-    align-items: center;
-    gap: 6px; /* アイコンと文字の間隔 */    
-  }
   .menu__btn-title {
     font-size: 0.8rem;
   }
