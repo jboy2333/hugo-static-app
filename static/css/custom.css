@@ -110,13 +110,21 @@ body {
   .list__title a {
     font-size: 1.1rem !important;
   }
+  .list__title  {
+    line-height: 0.9 !important;
+  }
   body .content.list__excerpt.post__content.clearfix p {
     font-size: 1.0rem !important;
-    line-height: 1.0 !important;
+    line-height: 1.1 !important;
   }
 
-
+  /* ウィジェット（RECENT POSTS / CATEGORIES）の一覧文字サイズ */
+  .widget__link {
+    font-size: 0.9rem;   /* ← 好きなサイズに変更 */
+  }
 }
+
+
 
 .invert-hover {
   transition: filter 0.3s ease;
