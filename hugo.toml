@@ -9,6 +9,9 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 hasCJKLanguage = true # 日本語・中国語・韓国語の単語カウントを有効にする
 summaryLength = 120 # サマリーの長さを120単語にする
 
+[pagination]
+  pagerSize = 10
+
 [Params.Author]
   name = "かぶきあげ"
   bio = "主戦場は歌舞伎町ですが、その他の場所にも出没します。"
