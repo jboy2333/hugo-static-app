@@ -70,3 +70,14 @@ summaryLength = 120 # サマリーの長さを120単語にする
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+
+[related]
+  threshold = 80
+  includeNewer = true
+  toLower = false
+
+  [[related.indices]]
+    name = "categories"
+    weight = 100
+
