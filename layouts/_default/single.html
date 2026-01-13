@@ -21,18 +21,22 @@
 		{{ if $related }}
 		<section class="related-posts">
 		  <h2>関連記事</h2>
-		  <ul class="related-list">
+		  <div class="related-cards">
 		    {{ range $related }}
-		      <li class="related-item">
-		        <a href="{{ .RelPermalink }}" class="related-link">
-		          {{ with .Params.thumbnail }}
-		            <img src="{{ . | relURL }}" alt="{{ $.Title }}" class="related-thumb">
-		          {{ end }}
-		          <span class="related-title">{{ .Title }}</span>
-		        </a>
-		      </li>
+		    <a href="{{ .RelPermalink }}" class="related-card">
+		      <div class="related-thumb-wrap">
+		        {{ with .Params.thumbnail }}
+		          <img src="{{ . | relURL }}" alt="{{ $.Title }}" class="related-thumb">
+		        {{ else }}
+		          <div class="related-thumb no-thumb"></div>
+		        {{ end }}
+		      </div>
+		      <div class="related-info">
+		        <h3 class="related-title">{{ .Title }}</h3>
+		      </div>
+		    </a>
 		    {{ end }}
-		  </ul>
+		  </div>
 		</section>
 		{{ end }}
 		
