@@ -98,6 +98,39 @@ body {
 }
 
 
+/* 議事ページのソーシャルボタン */
+.share-buttons {
+  display: flex;
+  gap: 15px;
+  justify-content: flex-start;   /* ← 左寄せに変更 */
+  margin: 20px 0;
+}
+
+/* 丸ボタン共通 */
+.share-buttons a {
+  width: 48px;              /* ボタンの大きさ（調整可） */
+  height: 48px;
+  background: #000;         /* 黒背景に統一 */
+  border-radius: 50%;       /* ← 丸ボタンの決め手 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+/* ホバー時に highlightColor を反映 */
+.share-buttons a:hover {
+  background: var(--highlightColor);
+}
+
+/* アイコン */
+.x-icon,
+.line-icon {
+  width: 30px;              /* アイコンサイズ（調整可） */
+  height: 30px;
+}
+
+
 
 
 /* スマホ（画面幅 600px 以下）用 X*/

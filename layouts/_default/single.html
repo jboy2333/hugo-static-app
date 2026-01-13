@@ -15,7 +15,23 @@
 		<div class="content post__content clearfix">
 			{{ .Content }}
 		</div>
-		<BR>
+		
+		<style>
+		:root {
+		  --highlightColor: {{ .Site.Params.highlightColor }};
+		}
+		</style>
+		
+		<div class="share-buttons">
+		  <a href="https://twitter.com/intent/tweet?text={{ .Title }}&url={{ .Permalink }}"
+		     target="_blank" rel="noopener">
+		    <img src="/img/twitter.svg" alt="X" class="x-icon">
+		  </a>
+		  <a href="https://social-plugins.line.me/lineit/share?url={{ .Permalink }}"
+		     target="_blank" rel="noopener">
+		    <img src="/img/line.svg" alt="LINE" class="line-icon">
+		  </a>
+		</div>		
 		
 		{{ $related := .Site.RegularPages.Related . | first 5 }}
 		{{ if $related }}
