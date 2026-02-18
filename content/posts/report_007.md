@@ -10,7 +10,6 @@ tags:
 - ちっぱい
 thumbnail: "img/rep_007.webp"
 images: ["img/rep_007.webp"]
-draft: true
 ---
 
 デリス渋谷の鈴木みどりちゃんと対戦してきました。年齢は高めですが、デリスのレビュー内容に惹かれてポチっと予約してしまいました！
