@@ -1,6 +1,7 @@
 baseURL = "https://www.fu-zock.com/"
 title = "かぶきあげのFU-ZOCKレポ"
 languageCode = "ja"
+defaultContentLanguage = "ja"
 enableRobotsTXT = true
 theme ="mainroad"
 disqusShortname = "" # Enable comments by entering your Disqus shortname
