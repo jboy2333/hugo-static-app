@@ -41,4 +41,4 @@ images: ["img/rep_007.webp"]
 	ブロマガで公開中！
 
 {{< blomaga-info >}}
-<span style="font-size: 150%;">**￥900**</span>（約900文字）
+<span style="font-size: 150%;">**￥900**</span>（約1400文字）

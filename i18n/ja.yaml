@@ -21,10 +21,10 @@
 
 # Post nav
 - id: post_nav_prev
-  translation: "前の投稿"
+  translation: "前の対戦"
 
 - id: post_nav_next
-  translation: "次の投稿"
+  translation: "次の対戦"
 
 # Authorbox
 - id: authorbox_name
