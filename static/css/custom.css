@@ -130,7 +130,23 @@ body {
   height: 30px;
 }
 
-
+/* ブロマガはこちらボタン */
+.promaga-btn {
+  display: inline-block;
+  padding: 5px 5px;
+  border-radius: 40px;
+  background-color: #000;        /* 黒背景 */
+  color: #ffb2d8 !important;     /* ピンク文字 */
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.5rem;
+  transition: 0.2s ease;
+}
+/* ホバー時（X/LINE と同じ動き） */
+.promaga-btn:hover {
+  background-color: var(--highlightColor);     /* ピンク背景 */
+  color:  #fff !important;                   /* 黒文字 */
+}
 
 
 /* スマホ（画面幅 600px 以下）用 X*/

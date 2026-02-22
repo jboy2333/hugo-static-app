@@ -38,9 +38,5 @@ YYYY｜ZZZZ ちゃん｜QQ歳｜T1QQ,Qカップ
 6. 総合 ?.?  
 	ブロマガで公開中！
 
-ブロマガでは基盤含めた上記の情報を記載しています。  
-詳しい内容はブロマガをご購入ください！  
-<a href="{{< ref "/blomaga.md#購入方法" >}}">
-  <img src="/img/blomaga.png" alt="ブロマガ" class="invert-hover">
-</a>
+{{< blomaga-info >}}
 <span style="font-size: 150%;">**￥900**</span>（約QQQQ文字）
