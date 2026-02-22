@@ -6,7 +6,7 @@ date: {{ .Date }}
 categories:
 - XXXX_YYYY
 tags:
-- QQQQ
+- QQQ
 thumbnail: "img/rep_{{ index (split .File.BaseFileName "_" ) 1 }}.webp"
 images: ["img/rep_{{ index (split .File.BaseFileName "_" ) 1 }}.webp"]
 draft: true
