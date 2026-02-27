@@ -9,7 +9,6 @@ tags:
 - 美尻
 thumbnail: "img/rep_008.webp"
 images: ["img/rep_008.webp"]
-draft: true
 ---
 
 デリス新宿エコノミーの白上あやかちゃんと対戦してきました。たまたま空いた時間があったのでポチっと予約しました。
