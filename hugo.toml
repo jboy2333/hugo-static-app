@@ -72,7 +72,6 @@ summaryLength = 120 # サマリーの長さを120単語にする
     [markup.goldmark.renderer]
       unsafe = true
 
-
 [related]
   threshold = 80
   includeNewer = true
@@ -82,3 +81,6 @@ summaryLength = 120 # サマリーの長さを120単語にする
     name = "categories"
     weight = 100
 
+[sitemap]
+  changefreq = "daily"
+  priority = 0.7
