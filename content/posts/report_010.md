@@ -2,7 +2,7 @@
 title: "010｜新宿｜デリス新宿｜湊あむ ちゃん"
 description: "デリス新宿の人気キャスト「湊あむ」ちゃんに関する体験レビューを紹介します。"
 
-date: 2026-03-14T19:24:08+09:00
+date: 2026-03-24T19:24:08+09:00
 categories:
 - 新宿_デリス新宿
 tags:
@@ -40,4 +40,4 @@ images: ["img/rep_010.webp"]
 	ブロマガで公開中！
 
 {{< blomaga-info >}}
-<span style="font-size: 150%;">**￥900**</span>（約900文字）
+<span style="font-size: 150%;">**￥900**</span>（約1200文字）
