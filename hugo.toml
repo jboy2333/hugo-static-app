@@ -56,9 +56,15 @@ summaryLength = 120 # サマリーの長さを120単語にする
   icon = "line.svg"
   title = "LINE"
 [[Params.widgets.social.custom]]
+  url = "https://note.com/fu_zock"
+  icon = "note.svg"
+  title = "note　--> レポ以外のコラム"
+[[Params.widgets.social.custom]]
   url = "mailto:michae.j332333@gmail.com"
   icon = "email.svg"
-  title = "MAIL"
+  title = "MAIL　--> michael.j332333@gmail.com"
+
+
 # メインメニュー
 #[[Menus.main]]
 #  Name = "ホーム"

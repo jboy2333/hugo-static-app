@@ -47,7 +47,7 @@
 
 # Categories widget
 - id: categories_title
-  translation: "カテゴリー（店舗別）"
+  translation: "店舗"
 
 # Recent Posts widget
 - id: recent_title
@@ -55,7 +55,7 @@
 
 # Social widget
 - id: social_title
-  translation: "お問い合わせ先"
+  translation: "ソーシャルリンク"
 
 # Tags List widget
 - id: tags_title
