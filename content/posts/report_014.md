@@ -34,8 +34,8 @@ images: ["img/rep_014.webp"]
 	ブロマガで公開中！
 5. フィニッシュ X.X  
 	ブロマガで公開中！
-6. 総合 X.X  
+6. 総合 4.0  
 	ブロマガで公開中！
 
 {{< blomaga-info >}}
-<span style="font-size: 150%;">**￥900**</span>（約1000文字）
+<span style="font-size: 150%;">**￥900**</span>（約1200文字）
