@@ -8,7 +8,7 @@ categories:
 tags:
 - 美尻
 thumbnail: "img/no_photo_image.webp"
-images: ["img/rep_015.webp"]
+images: ["img/no_photo_image.webp"]
 
 ---
 

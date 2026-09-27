@@ -1,5 +1,5 @@
 ---
-title: "007｜渋谷｜デリス渋谷｜鈴木みどり ちゃん"
+title: "007｜渋谷｜デリス渋谷｜【退店】鈴木みどり ちゃん"
 description: "デリス渋谷の人気キャスト「鈴木みどり」ちゃんに関する体験レビューを紹介します。"
 
 date: 2026-02-15T22:27:02+09:00
@@ -8,8 +8,8 @@ categories:
 tags:
 - お姉さん
 - ちっぱい
-thumbnail: "img/rep_007.webp"
-images: ["img/rep_007.webp"]
+thumbnail: "img/no_photo_image.webp"
+images: ["img/no_photo_image.webp"]
 ---
 
 デリス渋谷の鈴木みどりちゃんと対戦してきました。年齢は高めですが、デリスのレビュー内容に惹かれてポチっと予約してしまいました！

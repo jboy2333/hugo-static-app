@@ -1,5 +1,5 @@
 ---
-title: "008｜新宿｜デリス新宿｜白上あやか ちゃん"
+title: "008｜新宿｜デリス新宿｜【退店】白上あやか ちゃん"
 description: "デリス新宿の人気キャスト「白上あやか」ちゃんに関する体験レビューを紹介します。"
 
 date: 2026-02-26T19:14:12+09:00
@@ -7,8 +7,8 @@ categories:
 - 新宿_デリス新宿
 tags:
 - 美尻
-thumbnail: "img/rep_008.webp"
-images: ["img/rep_008.webp"]
+thumbnail: "img/no_photo_image.webp"
+images: ["img/no_photo_image.webp"]
 ---
 
 デリス新宿エコノミーの白上あやかちゃんと対戦してきました。たまたま空いた時間があったのでポチっと予約しました。
